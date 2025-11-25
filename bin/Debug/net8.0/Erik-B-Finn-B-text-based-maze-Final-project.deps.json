@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Erik-B-Finn-B-text-based-maze-Final-project/1.0.0": {
+        "runtime": {
+          "Erik-B-Finn-B-text-based-maze-Final-project.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Erik-B-Finn-B-text-based-maze-Final-project/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

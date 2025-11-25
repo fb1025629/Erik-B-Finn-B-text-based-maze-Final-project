@@ -1,0 +1,15 @@
+C:\Users\eb1027437\OneDrive - Ozarks Technical Community College\Documents\GitHub\King\Erik-B-Finn-B-text-based-maze-Final-project\bin\Debug\net8.0\Erik-B-Finn-B-text-based-maze-Final-project.exe
+C:\Users\eb1027437\OneDrive - Ozarks Technical Community College\Documents\GitHub\King\Erik-B-Finn-B-text-based-maze-Final-project\bin\Debug\net8.0\Erik-B-Finn-B-text-based-maze-Final-project.deps.json
+C:\Users\eb1027437\OneDrive - Ozarks Technical Community College\Documents\GitHub\King\Erik-B-Finn-B-text-based-maze-Final-project\bin\Debug\net8.0\Erik-B-Finn-B-text-based-maze-Final-project.runtimeconfig.json
+C:\Users\eb1027437\OneDrive - Ozarks Technical Community College\Documents\GitHub\King\Erik-B-Finn-B-text-based-maze-Final-project\bin\Debug\net8.0\Erik-B-Finn-B-text-based-maze-Final-project.dll
+C:\Users\eb1027437\OneDrive - Ozarks Technical Community College\Documents\GitHub\King\Erik-B-Finn-B-text-based-maze-Final-project\bin\Debug\net8.0\Erik-B-Finn-B-text-based-maze-Final-project.pdb
+C:\Users\eb1027437\OneDrive - Ozarks Technical Community College\Documents\GitHub\King\Erik-B-Finn-B-text-based-maze-Final-project\obj\Debug\net8.0\Erik-B-Finn-B-text-based-maze-Final-project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eb1027437\OneDrive - Ozarks Technical Community College\Documents\GitHub\King\Erik-B-Finn-B-text-based-maze-Final-project\obj\Debug\net8.0\Erik-B-Finn-B-text-based-maze-Final-project.AssemblyInfoInputs.cache
+C:\Users\eb1027437\OneDrive - Ozarks Technical Community College\Documents\GitHub\King\Erik-B-Finn-B-text-based-maze-Final-project\obj\Debug\net8.0\Erik-B-Finn-B-text-based-maze-Final-project.AssemblyInfo.cs
+C:\Users\eb1027437\OneDrive - Ozarks Technical Community College\Documents\GitHub\King\Erik-B-Finn-B-text-based-maze-Final-project\obj\Debug\net8.0\Erik-B-Finn-B-text-based-maze-Final-project.csproj.CoreCompileInputs.cache
+C:\Users\eb1027437\OneDrive - Ozarks Technical Community College\Documents\GitHub\King\Erik-B-Finn-B-text-based-maze-Final-project\obj\Debug\net8.0\Erik-B-Finn-B-text-based-maze-Final-project.sourcelink.json
+C:\Users\eb1027437\OneDrive - Ozarks Technical Community College\Documents\GitHub\King\Erik-B-Finn-B-text-based-maze-Final-project\obj\Debug\net8.0\Erik-B-Finn-B-text-based-maze-Final-project.dll
+C:\Users\eb1027437\OneDrive - Ozarks Technical Community College\Documents\GitHub\King\Erik-B-Finn-B-text-based-maze-Final-project\obj\Debug\net8.0\refint\Erik-B-Finn-B-text-based-maze-Final-project.dll
+C:\Users\eb1027437\OneDrive - Ozarks Technical Community College\Documents\GitHub\King\Erik-B-Finn-B-text-based-maze-Final-project\obj\Debug\net8.0\Erik-B-Finn-B-text-based-maze-Final-project.pdb
+C:\Users\eb1027437\OneDrive - Ozarks Technical Community College\Documents\GitHub\King\Erik-B-Finn-B-text-based-maze-Final-project\obj\Debug\net8.0\Erik-B-Finn-B-text-based-maze-Final-project.genruntimeconfig.cache
+C:\Users\eb1027437\OneDrive - Ozarks Technical Community College\Documents\GitHub\King\Erik-B-Finn-B-text-based-maze-Final-project\obj\Debug\net8.0\ref\Erik-B-Finn-B-text-based-maze-Final-project.dll
