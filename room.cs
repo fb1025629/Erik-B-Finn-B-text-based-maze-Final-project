@@ -1,112 +1,46 @@
 namespace room;
-public class Room
+class Room
 {
-    public static void dooroom1()
+    room room1 = new Room(begginining, 0, 1, 1);
+    room room2 = new Room(fork1, 1, 1, 1);
+    room room3 = new Room(straight1, 1, 0, 1);
+    room room4 = new Room(end1, 1, 0, 0);
+    room room5 = new Room(straight2, 1, 0, 1);
+    room room6 = new Room(fork2, 1, 1, 1);
+    room room7 = new Room(straight3, 1, 0, 1);
+    room room8 = new Room(end2, 0, 1, 0);
+    room room9 = new Room(end3, 0, 0, 1);
+    room room10 = new Room(finish, 0, 0, 1);
+    public Room(string name, int up, int left, int right)
     {
-        
-    }
-
-    public static void keyroom1()
+        this.name = name;
+        this.up = up;
+        this.left = left;
+        this.right = right;
+    }    
+    public void movement()
     {
-        
-    }
-    public static void normal()
-    {
-        // This is an array that is used for checking the map and traversing it. 
+        string direction = Console.ReadLine().ToUpper();
 
-        string x = "beginining"; 
-
-        string checkLocation = ""; 
-
-        string[] norm_room = { "beginining", "fork1", "straight1", "end1", "straight2", "fork2", "straight3", "end2", "end3", "finish"  }; 
-
-        if (x == norm_room[0]) 
-
-        { 
-
-            checkLocation = "beginining"; 
-
-        } 
-
-        else if (x == norm_room[1]) 
-
-        { 
-
-            checkLocation = "fork1"; 
-
-        } 
-
-        else if (x == norm_room[2]) 
-
-        { 
-
-            checkLocation = "straight1"; 
-            bool key1 = true;
-            if (key1 == true && x == end1)
-            {
-                dooroom1 = 
-            }
-
-        } 
-
-        else if (x == norm_room[3]) 
-
-        { 
-
-            checkLocation = "end1"; 
-
-        } 
-
-        else if (x == norm_room[4]) 
-
-        { 
-
-            checkLocation = "straight2"; 
-
-        } 
-
-        else if (x == norm_room[5]) 
-
-        { 
-
-            checkLocation = "fork2"; 
-
-        } 
-
-        else if (x == norm_room[6]) 
-
-        { 
-
-            checkLocation = "straight3"; 
-
-        } 
-
-        else if (x == norm_room[7]) 
-
-        { 
-
-            checkLocation = "end2"; 
-
-        } 
-
-        else if (x == norm_room[8]) 
-
-        { 
-
-            checkLocation = "end3"; 
-
-        } 
-
-        else if (x == norm_room [9]) 
-
-        { 
-
-            checkLocation = "finish"; 
-
-        } 
-    }
-    public static void endroom()
-    {
-        
+        switch (direction)
+        {
+            case "W":
+            if (up == 1)
+                {
+                    Console.writeline("we are geniuses!");
+                }
+                else
+                {
+                    Console.writeline("Cannot go that direction");
+                }
+                break;
+            case "A":
+                break;
+            case "D":
+                break;
+            default:
+                Console.WriteLine("That is not an option");
+                break;
+        }
     }
 }
