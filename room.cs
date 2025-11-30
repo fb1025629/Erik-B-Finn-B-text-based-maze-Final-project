@@ -1,58 +1,65 @@
 namespace room;
 class Room
 {
-    room room1 = new Room(begginining, 0, 1, 1);
-    room room2 = new Room(fork1, 1, 1, 1);
-    room room3 = new Room(straight1, 1, 0, 1);
-    room room4 = new Room(end1, 1, 0, 0);
-    room room5 = new Room(straight2, 1, 0, 1);
-    room room6 = new Room(fork2, 1, 1, 1);
-    room room7 = new Room(straight3, 1, 0, 1);
-    room room8 = new Room(end2, 0, 1, 0);
-    room room9 = new Room(end3, 0, 0, 1);
-    room room10 = new Room(finish, 0, 0, 1);
+    
+    string Name;
+    int Up ;
+    int Right;
+    int Left; 
+
+
+    Room room1 = new Room("Begginining", 0, 1, 1);
+    Room room2 = new Room("Fork1", 1, 1, 1);
+    Room room3 = new Room("Straight1", 1, 0, 1);
+    Room room4 = new Room("End1", 1, 0, 0);
+    Room room5 = new Room("Straight2", 1, 0, 1);
+    Room room6 = new Room("Fork2", 1, 1, 1);
+    Room room7 = new Room("Straight3", 1, 0, 1);
+    Room room8 = new Room("End2", 0, 1, 0);
+    Room room9 = new Room("End3", 0, 0, 1);
+    Room room10 = new Room("Finish", 0, 0, 1);
     public Room(string name, int up, int left, int right)
     {
-        this.name = name;
-        this.up = up;
-        this.left = left;
-        this.right = right;
+        this.Name = name;
+        this.Up = up;
+        this.Left = left;
+        this.Right = right;
     }    
-    public void movement()
+    public void Movement()
     {
-       room1.up();
+       
         string direction = Console.ReadLine().ToUpper();
 
         switch (direction)
         {
             case "W":
-            if (up == 1)
+            if (Up == 1)
                 {
-                    Console.writeline("we are geniuses!");
+                    Console.WriteLine("we are geniuses!");
                 }
                 else
                 {
-                    Console.writeline("Cannot go that direction");
+                    Console.WriteLine("Cannot go that direction");
                 }
                 break;
             case "A":
-            if (left == 1)
+            if (Left == 1)
                 {
-                    Console.writeline("yay");
+                    Console.WriteLine("yay");
                 }
                 else
                 {
-                    Console.writeline("Cannot go that direction");
+                    Console.WriteLine("Cannot go that direction");
                 }
                 break;
             case "D":
-            if (right == 1)
+            if (Right == 1)
                 {
-                    Console.writeline("it worked");
+                    Console.WriteLine("it worked");
                 }
                 else
                 {
-                    Console.writeline("Cannot go that direction");
+                    Console.WriteLine("Cannot go that direction");
                 }
                 break;
             default:
