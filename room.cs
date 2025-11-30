@@ -20,6 +20,7 @@ class Room
     }    
     public void movement()
     {
+       room1.up();
         string direction = Console.ReadLine().ToUpper();
 
         switch (direction)
@@ -35,12 +36,29 @@ class Room
                 }
                 break;
             case "A":
+            if (left == 1)
+                {
+                    Console.writeline("yay");
+                }
+                else
+                {
+                    Console.writeline("Cannot go that direction");
+                }
                 break;
             case "D":
+            if (right == 1)
+                {
+                    Console.writeline("it worked");
+                }
+                else
+                {
+                    Console.writeline("Cannot go that direction");
+                }
                 break;
             default:
                 Console.WriteLine("That is not an option");
                 break;
+            
         }
     }
 }
