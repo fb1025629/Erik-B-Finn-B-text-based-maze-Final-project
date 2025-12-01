@@ -8,24 +8,32 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\finnb\\.nuget\\packages\\": {}
+    "C:\\Users\\eb1027437\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\finnb\\OneDrive\\Desktop\\cis- 120\\Fruits loops\\Erik-B-Finn-B-text-based-maze-Final-project\\Erik-B-Finn-B-text-based-maze-Final-project.csproj",
+      "projectUniqueName": "C:\\Users\\eb1027437\\OneDrive - Ozarks Technical Community College\\Documents\\GitHub\\King\\Erik-B-Finn-B-text-based-maze-Final-project\\Erik-B-Finn-B-text-based-maze-Final-project.csproj",
       "projectName": "Erik-B-Finn-B-text-based-maze-Final-project",
-      "projectPath": "C:\\Users\\finnb\\OneDrive\\Desktop\\cis- 120\\Fruits loops\\Erik-B-Finn-B-text-based-maze-Final-project\\Erik-B-Finn-B-text-based-maze-Final-project.csproj",
-      "packagesPath": "C:\\Users\\finnb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\finnb\\OneDrive\\Desktop\\cis- 120\\Fruits loops\\Erik-B-Finn-B-text-based-maze-Final-project\\obj\\",
+      "projectPath": "C:\\Users\\eb1027437\\OneDrive - Ozarks Technical Community College\\Documents\\GitHub\\King\\Erik-B-Finn-B-text-based-maze-Final-project\\Erik-B-Finn-B-text-based-maze-Final-project.csproj",
+      "packagesPath": "C:\\Users\\eb1027437\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\eb1027437\\OneDrive - Ozarks Technical Community College\\Documents\\GitHub\\King\\Erik-B-Finn-B-text-based-maze-Final-project\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\finnb\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\eb1027437\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -43,8 +51,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -65,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
