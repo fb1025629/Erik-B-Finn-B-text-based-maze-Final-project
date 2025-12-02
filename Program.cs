@@ -11,7 +11,7 @@ class Program
 
     public static void Main(string[] args)
     {
-        Room.Movement();
+      Player.input();
 
     }
     public static void Begginining()

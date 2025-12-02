@@ -1,13 +1,17 @@
+
+using System.Security.Cryptography.X509Certificates;
+
 namespace room;
-class Room
+public class Room
 {
     
-    string Name;
-    int Up ;
-    int Right;
-    int Left; 
-
-
+    public string name;
+    public int up;
+    public int right;
+    public int left; 
+    
+public Room()
+{
     Room room1 = new Room("Begginining", 0, 1, 1);
     Room room2 = new Room("Fork1", 1, 1, 1);
     Room room3 = new Room("Straight1", 1, 0, 1);
@@ -18,22 +22,23 @@ class Room
     Room room8 = new Room("End2", 0, 1, 0);
     Room room9 = new Room("End3", 0, 0, 1);
     Room room10 = new Room("Finish", 0, 0, 1);
+}
+    
     public Room(string name, int up, int left, int right)
     {
-        this.Name = name;
-        this.Up = up;
-        this.Left = left;
-        this.Right = right;
-    }    
-    public void Movement()
+        this.name = name;
+        this.up = up;
+        this.left =left;
+        this.right =right;
+    }
+    public void Movement(int up, int left, int right, string name)
     {
-       
         string direction = Console.ReadLine().ToUpper();
 
         switch (direction)
         {
             case "W":
-            if (Up == 1)
+            if (up == 1)
                 {
                     Console.WriteLine("we are geniuses!");
                 }
@@ -43,7 +48,7 @@ class Room
                 }
                 break;
             case "A":
-            if (Left == 1)
+            if (left == 1)
                 {
                     Console.WriteLine("yay");
                 }
@@ -53,7 +58,7 @@ class Room
                 }
                 break;
             case "D":
-            if (Right == 1)
+            if (right == 1)
                 {
                     Console.WriteLine("it worked");
                 }

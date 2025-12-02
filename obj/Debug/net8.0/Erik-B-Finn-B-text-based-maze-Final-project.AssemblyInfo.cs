@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Erik-B-Finn-B-text-based-maze-Final-project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8da5c1df76de8ca355eecba3926b35330fa3686")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb39a002ecec8b69176b71deb8d348d9bca984dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Erik-B-Finn-B-text-based-maze-Final-project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Erik-B-Finn-B-text-based-maze-Final-project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -21,3 +21,10 @@ C:\Users\finnb\OneDrive\Desktop\cis- 120\Fruits loops\Erik-B-Finn-B-text-based-m
 C:\Users\finnb\OneDrive\Desktop\cis- 120\Fruits loops\Erik-B-Finn-B-text-based-maze-Final-project\obj\Debug\net8.0\Erik-B-Finn-B-text-based-maze-Final-project.dll
 C:\Users\finnb\OneDrive\Desktop\cis- 120\Fruits loops\Erik-B-Finn-B-text-based-maze-Final-project\obj\Debug\net8.0\refint\Erik-B-Finn-B-text-based-maze-Final-project.dll
 C:\Users\finnb\OneDrive\Desktop\cis- 120\Fruits loops\Erik-B-Finn-B-text-based-maze-Final-project\obj\Debug\net8.0\Erik-B-Finn-B-text-based-maze-Final-project.pdb
+C:\Users\finnb\OneDrive\Desktop\cis- 120\Fruits loops\Erik-B-Finn-B-text-based-maze-Final-project\bin\Debug\net8.0\Erik-B-Finn-B-text-based-maze-Final-project.exe
+C:\Users\finnb\OneDrive\Desktop\cis- 120\Fruits loops\Erik-B-Finn-B-text-based-maze-Final-project\bin\Debug\net8.0\Erik-B-Finn-B-text-based-maze-Final-project.deps.json
+C:\Users\finnb\OneDrive\Desktop\cis- 120\Fruits loops\Erik-B-Finn-B-text-based-maze-Final-project\bin\Debug\net8.0\Erik-B-Finn-B-text-based-maze-Final-project.runtimeconfig.json
+C:\Users\finnb\OneDrive\Desktop\cis- 120\Fruits loops\Erik-B-Finn-B-text-based-maze-Final-project\bin\Debug\net8.0\Erik-B-Finn-B-text-based-maze-Final-project.dll
+C:\Users\finnb\OneDrive\Desktop\cis- 120\Fruits loops\Erik-B-Finn-B-text-based-maze-Final-project\bin\Debug\net8.0\Erik-B-Finn-B-text-based-maze-Final-project.pdb
+C:\Users\finnb\OneDrive\Desktop\cis- 120\Fruits loops\Erik-B-Finn-B-text-based-maze-Final-project\obj\Debug\net8.0\Erik-B-Finn-B-text-based-maze-Final-project.genruntimeconfig.cache
+C:\Users\finnb\OneDrive\Desktop\cis- 120\Fruits loops\Erik-B-Finn-B-text-based-maze-Final-project\obj\Debug\net8.0\ref\Erik-B-Finn-B-text-based-maze-Final-project.dll
