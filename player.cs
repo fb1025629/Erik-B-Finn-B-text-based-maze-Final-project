@@ -1,6 +1,6 @@
 using System.Data;
-
 namespace player;
+
 public class Player
 {
     public string name;

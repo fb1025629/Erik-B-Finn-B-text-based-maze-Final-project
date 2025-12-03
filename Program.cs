@@ -12,10 +12,12 @@ class Program
     public static void Main(string[] args)
     {
       //Player.input(); 
+      Room.Movement();
     }
+    // class room for our second class.
 public class Room
 {
-    
+   
     public string name;
     public int up;
     public int right;
@@ -23,6 +25,7 @@ public class Room
     
 public Room()
 {
+    //constructers for all the rooms 
     Room room1 = new Room("Begginining", 0, 1, 1);
     Room room2 = new Room("Fork1", 1, 1, 1);
     Room room3 = new Room("Straight1", 1, 0, 1);
@@ -37,54 +40,16 @@ public Room()
     
     public Room(string name, int up, int left, int right)
     {
+        //constructer prefab
         this.name = name;
         this.up = up;
         this.left =left;
         this.right =right;
     }
-     string direction = Console.ReadLine().ToUpper();
-     switch (direction)
-     {
-        case "W":
-         if (up == 1)
-            {
-                Console.WriteLine("we are geniuses!");
-            }
-            else
-            {
-                    Console.WriteLine("Cannot go that direction");
-                }
-                break;
-            case "A":
-            if (left == 1)
-                {
-                    Console.WriteLine("yay");
-                }
-                else
-                {
-                    Console.WriteLine("Cannot go that direction");
-                }
-                break;
-            case "D":
-            if (right == 1)
-                {
-                    Console.WriteLine("it worked");
-                }
-                else
-                {
-                    Console.WriteLine("Cannot go that direction");
-                }
-                break;
-            default:
-                Console.WriteLine("That is not an option");
-                break;
-            
-        }
-        
-
 
     }
-    public static void Begginining()
+    // all of our rooms in ASCII
+    static void Begginining()
     {
         Console.WriteLine("You arrive at the corn maze there is two paths to start which one do you take? You may go back if need be.");
         Console.WriteLine("  | A _______ D |");
@@ -92,7 +57,7 @@ public Room()
         Console.WriteLine("        |  |     ");
 
     }
-    public static void Fork1()
+    static void Fork1()
     {
         Console.WriteLine("      Fork1");
         Console.WriteLine("|  W|_____________ ");
@@ -101,21 +66,21 @@ public Room()
         Console.WriteLine("       |    |______");
         Console.WriteLine("         A         ");
     }
-    public static void Straight1()
+    static void Straight1()
     {
     Console.WriteLine("Straight1");
     Console.WriteLine(" ______| W  |");
     Console.WriteLine("|_______    |");
     Console.WriteLine("          D  ");
     }
-    public static void End()
+    static void End()
     {
     Console.WriteLine("End1");
     Console.WriteLine(" ____        ");
     Console.WriteLine("|    |_____  ");
     Console.WriteLine("   W         ");
     }
-    public static void Straight2()
+    static void Straight2()
     {
     Console.WriteLine("Straight2");
     Console.WriteLine("              W  ");

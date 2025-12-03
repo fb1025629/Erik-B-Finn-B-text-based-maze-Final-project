@@ -4,6 +4,7 @@ using System.Security.Cryptography.X509Certificates;
 namespace room;
 public class Room
 {
+    //this is suposed to be where we take user input for finding out where they want to go on our map.
      string direction = Console.ReadLine().ToUpper();
     public string name;
     public int up;
@@ -11,13 +12,13 @@ public class Room
     public int left; 
     public void Movement(int up, int left, int right, string name)
     {
-    string direction = Console.ReadLine().ToUpper();
+            //switch for the inputs to do their magic.
         switch (direction)
         {
             case "W":
             if (up == 1)
                 {
-                    Console.WriteLine("we are geniuses!");
+                    
                 }
                 else
                 {
