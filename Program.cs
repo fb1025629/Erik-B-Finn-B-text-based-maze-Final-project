@@ -12,7 +12,7 @@ class Program
     public static void Main(string[] args)
     {
       //Player.input(); 
-      Room.Movement();
+      //Room.Movement();
     }
     // class room for our second class.
 public class Room
@@ -73,7 +73,7 @@ public Room()
     Console.WriteLine("|_______    |");
     Console.WriteLine("          D  ");
     }
-    static void End()
+    static void End1()
     {
     Console.WriteLine("End1");
     Console.WriteLine(" ____        ");

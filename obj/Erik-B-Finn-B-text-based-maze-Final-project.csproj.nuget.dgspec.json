@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\finnb\\OneDrive\\Desktop\\cis- 120\\Fruits loops\\Erik-B-Finn-B-text-based-maze-Final-project\\Erik-B-Finn-B-text-based-maze-Final-project.csproj": {}
+    "C:\\Users\\encha\\OneDrive - Ozarks Technical Community College\\Documents\\GitHub\\King\\Erik-B-Finn-B-text-based-maze-Final-project\\Erik-B-Finn-B-text-based-maze-Final-project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\finnb\\OneDrive\\Desktop\\cis- 120\\Fruits loops\\Erik-B-Finn-B-text-based-maze-Final-project\\Erik-B-Finn-B-text-based-maze-Final-project.csproj": {
+    "C:\\Users\\encha\\OneDrive - Ozarks Technical Community College\\Documents\\GitHub\\King\\Erik-B-Finn-B-text-based-maze-Final-project\\Erik-B-Finn-B-text-based-maze-Final-project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\finnb\\OneDrive\\Desktop\\cis- 120\\Fruits loops\\Erik-B-Finn-B-text-based-maze-Final-project\\Erik-B-Finn-B-text-based-maze-Final-project.csproj",
+        "projectUniqueName": "C:\\Users\\encha\\OneDrive - Ozarks Technical Community College\\Documents\\GitHub\\King\\Erik-B-Finn-B-text-based-maze-Final-project\\Erik-B-Finn-B-text-based-maze-Final-project.csproj",
         "projectName": "Erik-B-Finn-B-text-based-maze-Final-project",
-        "projectPath": "C:\\Users\\finnb\\OneDrive\\Desktop\\cis- 120\\Fruits loops\\Erik-B-Finn-B-text-based-maze-Final-project\\Erik-B-Finn-B-text-based-maze-Final-project.csproj",
-        "packagesPath": "C:\\Users\\finnb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\finnb\\OneDrive\\Desktop\\cis- 120\\Fruits loops\\Erik-B-Finn-B-text-based-maze-Final-project\\obj\\",
+        "projectPath": "C:\\Users\\encha\\OneDrive - Ozarks Technical Community College\\Documents\\GitHub\\King\\Erik-B-Finn-B-text-based-maze-Final-project\\Erik-B-Finn-B-text-based-maze-Final-project.csproj",
+        "packagesPath": "C:\\Users\\encha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\encha\\OneDrive - Ozarks Technical Community College\\Documents\\GitHub\\King\\Erik-B-Finn-B-text-based-maze-Final-project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\finnb\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\encha\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -38,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -54,12 +54,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

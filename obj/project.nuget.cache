@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "HcsBS5+8PVA=",
+  "dgSpecHash": "0EOgfoWSdxQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\finnb\\OneDrive\\Desktop\\cis- 120\\Fruits loops\\Erik-B-Finn-B-text-based-maze-Final-project\\Erik-B-Finn-B-text-based-maze-Final-project.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\encha\\OneDrive - Ozarks Technical Community College\\Documents\\GitHub\\King\\Erik-B-Finn-B-text-based-maze-Final-project\\Erik-B-Finn-B-text-based-maze-Final-project.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\encha\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.22\\microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\encha\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.22\\microsoft.windowsdesktop.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\encha\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.22\\microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\encha\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.22\\microsoft.netcore.app.host.win-x64.8.0.22.nupkg.sha512"
+  ],
   "logs": []
 }
