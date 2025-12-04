@@ -1,54 +1,18 @@
-
-using System.Security.Cryptography.X509Certificates;
-
-namespace room;
-public class Room
+namespace room
 {
-    //this is suposed to be where we take user input for finding out where they want to go on our map.
-     string direction = Console.ReadLine().ToUpper();
-    public string name;
-    public int up;
-    public int right;
-    public int left; 
-    public void Movement(int up, int left, int right, string name)
+    public class Room
     {
-            //switch for the inputs to do their magic.
-        switch (direction)
+        public string name;
+        public int up;
+        public int left;
+        public int right;
+
+        public Room(string name, int up, int left, int right)
         {
-            case "W":
-            if (up == 1)
-                {
-                    
-                }
-                else
-                {
-                    Console.WriteLine("Cannot go that direction");
-                }
-                break;
-            case "A":
-            if (left == 1)
-                {
-                    Console.WriteLine("yay");
-                }
-                else
-                {
-                    Console.WriteLine("Cannot go that direction");
-                }
-                break;
-            case "D":
-            if (right == 1)
-                {
-                    Console.WriteLine("it worked");
-                }
-                else
-                {
-                    Console.WriteLine("Cannot go that direction");
-                }
-                break;
-            default:
-                Console.WriteLine("That is not an option");
-                break;
-            
+            this.name = name;
+            this.up = up;
+            this.left = left;
+            this.right = right;
         }
     }
 }
