@@ -72,7 +72,7 @@ namespace Game
         {
             Console.WriteLine("      Fork1");
             Console.WriteLine("|  W|_____________ ");
-            Console.WriteLine("|______    _____D ");
+            Console.WriteLine("|______      _____D ");
             Console.WriteLine("       |    |      ");
             Console.WriteLine("       |    |______");
             Console.WriteLine("         A         ");
@@ -194,16 +194,16 @@ namespace Game
         }
         public void LoadRooms()
         {
-            Rooms.Add(new Room("Beginginging", 1, 0, 1));  // 0
-            Rooms.Add(new Room("Fork1",     1, 1, 1));  // 1
-            Rooms.Add(new Room("Straight1", 1, 0, 1));  // 2
-            Rooms.Add(new Room("End1",      0, 0, 0));  // 3
-            Rooms.Add(new Room("Straight2", 1, 0, 1));  // 4
-            Rooms.Add(new Room("Fork2",     1, 1, 1));  // 5
-            Rooms.Add(new Room("Straight3", 1, 0, 1));  // 6
-            Rooms.Add(new Room("End2",      0, 1, 0));  // 7
-            Rooms.Add(new Room("End3",      0, 0, 1));  // 8
-            Rooms.Add(new Room("Finish",    0, 0, 0));  // 9
+            Rooms.Add(new Room("Beginginging", 1, 0, 1)); 
+            Rooms.Add(new Room("Fork1",     1, 1, 1));
+            Rooms.Add(new Room("Straight1", 1, 0, 1));
+            Rooms.Add(new Room("End1",      0, 1, 0)); 
+            Rooms.Add(new Room("Straight2", 1, 0, 1)); 
+            Rooms.Add(new Room("Fork2",     1, 1, 1)); 
+            Rooms.Add(new Room("Straight3", 1, 0, 1)); 
+            Rooms.Add(new Room("End2",      0, 1, 0)); 
+            Rooms.Add(new Room("End3",      0, 0, 1));  
+            Rooms.Add(new Room("Finish",    0, 0, 0)); 
         }
         public void ROOM(Player a)
         {
